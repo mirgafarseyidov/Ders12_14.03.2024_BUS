@@ -1,0 +1,287 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%27);
+
+
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+/* esas menu main */
+
+.esas_menu {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.home {
+    margin: left 250px
+}
+
+.home ul {
+    color: rgb(22, 22, 138);
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+/* tel no */
+.right a {
+    color: white;
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 35px;
+    background-color: rgb(203, 180, 76);
+    border-radius: 5px;
+}
+
+h3 {
+    font-size: 50px;
+    color: rgb(28, 28, 92);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+
+.basliq {
+
+    padding: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.basliq h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: rgb(26, 27, 94);
+    width: 35%;
+    text-align: center;
+}
+
+.basliq2 {
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+
+}
+
+#button_second {
+    position: relative;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(80, 80, 179);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.arxa_fon {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./media/arxa_fon.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+
+}
+
+
+
+/* üçüncü hissüe */
+.third {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.third_text {
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 70px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    margin: 0px 5px 150px;
+    border-radius: 8px;
+    width: 280px;
+    height: 100px;
+}
+
+#media {
+    width: 280px;
+    height: 250px;
+}
+      
+.left_right_icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+#left_icone {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 100%;
+    left: -10%;
+    z-index: 1;
+}
+
+#left_icone:hover {
+    transform: scale(1.5);
+}
+
+#right_icone {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 100%;
+    left: 120%;
+    z-index: 1;
+}
+
+#right_icone:hover {
+    transform: scale(1.5);
+}
+
+/* icome hereketli */
+
+#img_1 {
+    position: absolute;
+    top: 700px;
+    right: 300px;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: none;
+    animation-iteration-count: infinite
+}
+
+@keyframes example {
+    0% {
+        left: 25%;
+    }
+
+    50% {
+        left: 35%;
+    }
+
+    100% {
+        left: 25%;
+    }
+}
+
+
+.media {
+    width: 280px;
+    height: 220px;
+}
+
+.card {
+    margin: 0px 5px 150px;
+    border-radius: 8px;
+    width: 280px;
+    height: 250px;
+}
+
+.card:hover {
+    transform: scale(1.01);
+
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.price_1 {
+    font-size: 18px;
+    color: rgb(24, 24, 87);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.price_2 {
+    font-size: 20px;
+    color: rgb(61, 61, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.price_3 {
+    font-size: 14px;
+    color: rgb(8, 8, 122);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
